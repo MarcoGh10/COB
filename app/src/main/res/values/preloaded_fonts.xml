@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/archivo_bold</item>
+        <item>@font/cairo_bold</item>
+        <item>@font/comfortaa_bold</item>
+        <item>@font/faster_one</item>
+        <item>@font/monoton</item>
+        <item>@font/montserrat_alternates_bold</item>
+        <item>@font/sarabun_bold</item>
+        <item>@font/sarabun_extrabold</item>
+    </array>
+</resources>

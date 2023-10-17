@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "887155335737",
+    "project_id": "communityofriders",
+    "storage_bucket": "communityofriders.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:887155335737:android:0587ab10602171229223e8",
+        "android_client_info": {
+          "package_name": "com.example.cob"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "887155335737-0hvgb3nhrccsftg9gerqkl5oqabn3lst.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3zW2ru7OdPmz7Dx2Z5nL9RShomQES6C0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "887155335737-0hvgb3nhrccsftg9gerqkl5oqabn3lst.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
