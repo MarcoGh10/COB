@@ -20,8 +20,8 @@
 
     <View
         android:id="@+id/view"
-        android:layout_width="353dp"
-        android:layout_height="132dp"
+        android:layout_width="382dp"
+        android:layout_height="131dp"
         android:layout_margin="@dimen/fab_margin"
         android:layout_marginBottom="16dp"
         android:background="#000000"
@@ -37,7 +37,7 @@
         android:layout_height="wrap_content"
         android:breakStrategy="simple"
         android:fontFamily="@font/sarabun_extrabold"
-        android:text="Community OF Riders"
+        android:text="CMoto"
         android:textColor="@color/white"
         android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -52,27 +52,28 @@
         android:layout_width="166dp"
         android:layout_height="53dp"
         android:layout_marginBottom="4dp"
+        android:fontFamily="@font/sarabun_bold"
         android:text="LOG IN"
         android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/register"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.07"
+        app:layout_constraintHorizontal_bias="0.065"
         app:layout_constraintStart_toStartOf="parent"
-        tools:targetApi="p"
-        tools:ignore="NewApi" />
+        tools:ignore="NewApi"
+        tools:targetApi="p" />
 
     <Button
         android:id="@+id/register"
         style="@android:style/Widget.Material.Button.Colored"
         android:layout_width="185dp"
         android:layout_height="58dp"
-        android:layout_marginBottom="16dp"
-        android:fontFamily="@font/comfortaa_bold"
+        android:layout_marginBottom="36dp"
+        android:fontFamily="@font/sarabun_bold"
         android:text="REGISTER"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.933"
+        app:layout_constraintHorizontal_bias="0.929"
         app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -19,7 +19,78 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="118dp"
+            android:layout_height="62dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="316dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/sarabun_extrabold"
+                android:text="CMoto"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="34sp" />
+
+            <Button
+                android:id="@+id/notificationBtn"
+                android:layout_width="4dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="216dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/sortBTN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/searchBTN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </FrameLayout>
+            </androidx.cardview.widget.CardView>
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
             android:background="#000000"
             android:orientation="horizontal"
             android:paddingStart="10px"
@@ -28,28 +99,45 @@
             android:paddingBottom="20px">
 
             <Button
-                android:id="@+id/LogOUT"
-                android:layout_width="102dp"
+                android:id="@+id/homeBTN"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:height="400dp"
-                android:onClick="c"
-                android:text="LogOut" />
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/addBTN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Button" />
 
             <Button
                 android:id="@+id/mapbutton"
-                android:layout_width="117dp"
-                android:layout_height="match_parent"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
                 android:height="400dp"
                 android:text="Map" />
 
             <Button
-                android:id="@+id/forum"
+                android:id="@+id/messBTN"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:height="400dp"
-                android:text="Forum" />
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/profilBTN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
         </LinearLayout>
-    </LinearLayout>
+        <com.ismaeldivita.chipnavigation.ChipNavigationBar
+
+
+
+
+            />
+
+</LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

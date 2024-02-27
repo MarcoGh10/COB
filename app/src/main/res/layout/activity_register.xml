@@ -136,13 +136,14 @@
         android:layout_marginBottom="296dp"
         android:background="@drawable/buton_bg"
         android:backgroundTint="@color/teal_200"
+        android:fontFamily="@font/sarabun_bold"
         android:text="Next"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.447"
+        app:layout_constraintHorizontal_bias="0.452"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/inputConfirmPassword"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.029" />
 
     <TextView
         android:id="@+id/textView"
@@ -150,7 +151,7 @@
         android:layout_height="wrap_content"
         android:breakStrategy="simple"
         android:fontFamily="@font/sarabun_extrabold"
-        android:text="Community OF Riders"
+        android:text="CMoto"
         android:textColor="@color/black"
         android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -160,19 +161,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.039" />
 
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="87dp"
-        android:text="Already Registered?"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.265"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/next"
-        app:layout_constraintVertical_bias="0.004" />
-
     <Button
         android:id="@+id/logIn"
         style="@android:style/Widget.Material.Light.Button"
@@ -180,13 +168,14 @@
         android:layout_height="48dp"
         android:background="@drawable/buton_bg"
         android:backgroundTint="@color/cardview_light_background"
+        android:fontFamily="@font/sarabun_bold"
         android:text="Log In"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/textView3"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/next"
-        app:layout_constraintVertical_bias="0.121" />
+        app:layout_constraintVertical_bias="0.083" />
 
     <TextView
         android:id="@+id/textView8"

@@ -2,4 +2,25 @@
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/nav_graph"/>
+    android:id="@+id/nav_graph"
+    android:label="5"
+    app:startDestination="@id/feed">
+    <activity
+        android:id="@+id/feed"
+        android:name="com.example.cob.Feed"
+        android:label="activity_feed"
+        tools:layout="@layout/activity_feed" />
+    <navigation android:id="@+id/navigation"
+        app:startDestination="@id/mapPage">
+        <activity
+            android:id="@+id/mapPage"
+            android:name="com.example.cob.MapPage"
+            android:label="activity_map_page"
+            tools:layout="@layout/activity_map_page" />
+    </navigation>
+    <activity
+        android:id="@+id/profile"
+        android:name="com.example.cob.Profile"
+        android:label="activity_profile"
+        tools:layout="@layout/activity_profile" />
+</navigation>

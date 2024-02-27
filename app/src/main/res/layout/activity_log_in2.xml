@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:breakStrategy="simple"
         android:fontFamily="@font/sarabun_extrabold"
-        android:text="Community OF Riders"
+        android:text="CMoto"
         android:textColor="@color/black"
         android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -72,7 +72,8 @@
         android:layout_marginBottom="200dp"
         android:background="@drawable/buton_bg"
         android:backgroundTint="#F4E981"
-        android:text="Next"
+        android:fontFamily="@font/sarabun_bold"
+        android:text="Log in"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.582"
@@ -80,39 +81,23 @@
         app:layout_constraintTop_toBottomOf="@+id/inputPssword"
         app:layout_constraintVertical_bias="0.109" />
 
-    <TextView
-        android:id="@+id/new1"
-        android:layout_width="142dp"
-        android:layout_height="28dp"
-        android:layout_gravity="center"
-        android:layout_margin="20dp"
-        android:layout_marginTop="43dp"
-        android:text="If you are new."
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.078"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/next"
-        app:layout_constraintVertical_bias="0.0" />
-
     <Button
         android:id="@+id/register1"
-        android:layout_width="124dp"
+        android:layout_width="150dp"
         android:layout_height="48dp"
         android:layout_gravity="center"
-        android:layout_marginStart="1dp"
         android:layout_marginBottom="272dp"
         android:background="@drawable/buton_bg"
         android:backgroundTint="@color/white"
+        android:fontFamily="@font/sarabun_bold"
         android:text="Create Account"
-        android:textSize="10dp"
+        android:textSize="14dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/new1"
+        app:layout_constraintHorizontal_bias="0.544"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/next"
-        app:layout_constraintVertical_bias="0.729" />
+        app:layout_constraintVertical_bias="0.833" />
 
     <TextView
         android:id="@+id/forgot_password"
