@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="home"
+        android:id="@+id/homeBTN"
+        android:icon="@drawable/home"
+        app:cnb_backroundColoe="@color/colorprimary"/>
+    <item
+        android:title="add"
+        android:id="@+id/addBTN"
+        android:icon="@drawable/Union"/>
+    <item
+        android:title="Map"
+        android:id="@+id/mapbutton"
+        android:icon="@drawable/moto"/>
+    <item
+        android:title="Message"
+        android:id="@+id/messBTN"
+        android:icon="@drawable/chats"/>
+    <item
+        android:title="Profile"
+        android:id="@+id/profilBTN"/>
+</menu>
